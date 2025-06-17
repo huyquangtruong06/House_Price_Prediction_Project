@@ -63,16 +63,16 @@ Step 5 : Model Evaluation
 
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
-# Dự đoán trên tập kiểm tra
+# Predict on X_test
 rf_predictions = rf_model.predict(X_Test)
 
-# Tính các metrics
+# Compute metrics
 mae = mean_absolute_error(Y_Test, rf_predictions)
 mse = mean_squared_error(Y_Test, rf_predictions)
 rmse = np.sqrt(mse)
 r2 = r2_score(Y_Test, rf_predictions)
 
-# In kết quả đánh giá
+# Print evaluation.
 print("Random Forest Regressor Evaluation:")
 print(f"Mean Absolute Error (MAE): {mae:.2f}")
 print(f"Mean Squared Error (MSE): {mse:.2f}")
