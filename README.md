@@ -38,11 +38,11 @@ This project focuses on building a **machine learning model** to predict house p
 - python House_Price_Prediction_Project.py
 ## 📊 Sample Evaluation Results
 - Metric	Value
-1. MAE	<span style="color:blue">29,500.00</span>
-2. MSE	<span style="color:orange">1,850,000,000</span>
-3. RMSE	<span style="color:red">43,000.00</span>
-4. R²	<span style="color:green">0.85</span>
-🔮 Future Improvements
+1. MAE	<span style="color:blue">XXXX</span>
+2. MSE	<span style="color:orange">XXXX</span>
+3. RMSE	<span style="color:red">XXXX</span>
+4. R²	<span style="color:green">XXXX</span>
+##🔮 Future Improvements
 - 🧪 Hyperparameter tuning
 
 - 🌐 Web interface deployment
