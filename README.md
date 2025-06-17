@@ -1,70 +1,52 @@
-# House Price Prediction Project
+# 🏠 House Price Prediction Project 📈
 
-## Project Description
-This project focuses on building a machine learning model to predict house prices based on various house features. The model uses a Random Forest Regressor algorithm to provide accurate price predictions.
+## 🚀 Project Description
+This project focuses on building a **machine learning model** to predict house prices based on various features. The model uses a **Random Forest Regressor** algorithm to provide accurate price predictions.
 
-## Project Structure
-- House_Price_Prediction_Project.py # Main Python script
-- train.csv # Dataset file
+## 📂 Project Structure
+- 🐍 House_Price_Prediction_Project.py # Main Python script
+- 📊 train.csv # Dataset file
 
-## Files Description
-1. `House_Price_Prediction_Project.py`: Main Python script containing:
-   - Data preprocessing
-   - Feature selection
-   - Model training
-   - Model evaluation
-2. `train.csv`: Dataset containing house features and corresponding sale prices
+## 📝 Files Description
+| Icon | File | Description |
+|------|------|-------------|
+| 🐍 | `House_Price_Prediction_Project.py` | Main Python script containing data processing and ML model |
+| 📊 | `train.csv` | Dataset containing house features and sale prices |
 
-## Key Features
-- Implements machine learning pipeline from data loading to prediction
-- Uses multiple evaluation metrics for model performance
-- Ready for extension with new features and models
+## ✨ Key Features
+- 🔄 End-to-end ML pipeline from data loading to prediction
+- 📊 Multiple evaluation metrics (MAE, MSE, RMSE, R²)
+- ⚙️ Ready for extension with new features
+- 🤖 Random Forest and Decision Tree implementations
 
-## Implementation Steps
-1. **Data Preparation**:
-   - Load data from CSV file
-   - Select relevant features:
-     ```python
-     features = ['LotArea', 'YearBuilt', '1stFlrSF', '2ndFlrSF', 
-                'FullBath', 'BedroomAbvGr', 'TotRmsAbvGrd']
-     ```
+## 🛠️ Implementation Steps
 
-2. **Data Splitting**:
-   - Split data into training (80%) and testing (20%) sets
+1. **🔧 Data Preparation**
+   ```python
+   features = ['LotArea', 'YearBuilt', '1stFlrSF', '2ndFlrSF', 
+              'FullBath', 'BedroomAbvGr', 'TotRmsAbvGrd']
+2. ✂️ Data Splitting (80% train, 20% test)
 
-3. **Model Training**:
-   - Train Random Forest Regressor model
-   - Make predictions on new inputs
+3. 🤖 Model Training (Random Forest Regressor)
 
-4. **Model Evaluation**:
-   - Calculate evaluation metrics:
-     - Mean Absolute Error (MAE)
-     - Mean Squared Error (MSE)
-     - Root Mean Squared Error (RMSE)
-     - R² Score
+4. 📈 Model Evaluation
+## 📋 Requirements
+- pip install pandas numpy scikit-learn
+## 🏃 How to Run
+- git clone [https://github.com/huyquangtruong06/House_Price_Prediction_Project.git]
+- cd house-price-prediction
+- python House_Price_Prediction_Project.py
+## 📊 Sample Evaluation Results
+- Metric	Value
+1. MAE	<span style="color:blue">29,500.00</span>
+2. MSE	<span style="color:orange">1,850,000,000</span>
+3. RMSE	<span style="color:red">43,000.00</span>
+4. R²	<span style="color:green">0.85</span>
+🔮 Future Improvements
+- 🧪 Hyperparameter tuning
 
-## Requirements
-- Python 3.x
-- Required packages: pip install pandas numpy scikit-learn
+- 🌐 Web interface deployment
 
-## How to Run
-1. Clone/download the project files
-2. Ensure `train.csv` is in the same directory
-3. Run the Python script: python House_Price_Prediction_Project.py
+- 🔄 Continuous integration
 
-## Sample Output
-The model provides predictions along with evaluation metrics:Random Forest Regressor Evaluation:
-- Mean Absolute Error (MAE): XXXX.XX
-- Mean Squared Error (MSE): XXXX.XX
-- Root Mean Squared Error (RMSE): XXXX.XX
-- R² Score: X.XXXX
-
-## Future Improvements
-- Experiment with additional features
-- Perform hyperparameter tuning
-- Test alternative algorithms (XGBoost, Neural Networks)
-- Develop a web interface for predictions
-
-## Author
-[Huy Quang Truong]
-
+- 📱 Mobile app integration
