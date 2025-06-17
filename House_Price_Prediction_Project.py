@@ -52,3 +52,29 @@ pre = rf_model.predict([[6969,2021,1000,800,4,5,8]])
 print(pre)
 
 # Model Evaluation
+'''
+Step 5 : Model Evaluation
+    Đánh giá độ chính xác của mô hình bằng các metrics:
+    - Mean Absolute Error (MAE)
+    - Mean Squared Error (MSE)
+    - Root Mean Squared Error (RMSE)
+    - R² Score
+'''
+
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+
+# Dự đoán trên tập kiểm tra
+rf_predictions = rf_model.predict(X_Test)
+
+# Tính các metrics
+mae = mean_absolute_error(Y_Test, rf_predictions)
+mse = mean_squared_error(Y_Test, rf_predictions)
+rmse = np.sqrt(mse)
+r2 = r2_score(Y_Test, rf_predictions)
+
+# In kết quả đánh giá
+print("Random Forest Regressor Evaluation:")
+print(f"Mean Absolute Error (MAE): {mae:.2f}")
+print(f"Mean Squared Error (MSE): {mse:.2f}")
+print(f"Root Mean Squared Error (RMSE): {rmse:.2f}")
+print(f"R² Score: {r2:.4f}")
