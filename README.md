@@ -42,6 +42,7 @@ This project focuses on building a **machine learning model** to predict house p
 2. MSE	<span style="color:orange">XXXX</span>
 3. RMSE	<span style="color:red">XXXX</span>
 4. R²	<span style="color:green">XXXX</span>
+
 ##🔮 Future Improvements
 - 🧪 Hyperparameter tuning
 
