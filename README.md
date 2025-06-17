@@ -4,9 +4,8 @@
 This project focuses on building a machine learning model to predict house prices based on various house features. The model uses a Random Forest Regressor algorithm to provide accurate price predictions.
 
 ## Project Structure
-house-price-prediction/
-├── House_Price_Prediction_Project.py # Main Python script
-└── train.csv # Dataset file
+- House_Price_Prediction_Project.py # Main Python script
+- train.csv # Dataset file
 
 ## Files Description
 1. `House_Price_Prediction_Project.py`: Main Python script containing:
